@@ -10,8 +10,9 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
   <nav>
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
+  <%= link_to 'Posts', posts_path %>
+  <%= link_to 'Main', posts_path %>
+  
   <body>
     <%= yield %>
   </body>
