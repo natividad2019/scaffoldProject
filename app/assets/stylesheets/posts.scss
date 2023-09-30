@@ -10,6 +10,10 @@ p {
   color: red;
 }
 
+body {
+  background-color: lightgray;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
@@ -53,4 +57,76 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
+}
+
+/* Additional CSS for the index and show pages */
+
+/* Style the post cards on the index page */
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.post-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Style the individual post page */
+.post-details {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-details p {
+  line-height: 1.5;
+}
+
+/* Style the like button */
+.like-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  background-color: #2980b9;
+}
+
+/* Style the comment section */
+.comments {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment p {
+  margin: 0;
+  padding: 5px;
 }
